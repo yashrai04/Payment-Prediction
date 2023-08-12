@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Age Bucket Predictor</title>
+</head>
+
+<body>
+<h1>Predict Age Bucket</h1>
+<form method="POST" action="/predict">
+    <label for="cust_payment_terms">Customer Payment Terms:</label>
+    <input type="text" name="cust_payment_terms"><br>
+    <label for="buisness_code">Buisness Code:</label>
+    <input type="text" name="buisness_code"><br>
+    <label for="document_create_date">Document Create Date:</label>
+    <input type="text" name="document_create_date"><br>
+    <label for="cust_number">Customer Number:</label>
+    <input type="text" name="cust_number"><br>
+    <label for="is_late_payment">Is Late Payment:</label>
+    <input type="text" name="is_late_payment"><br>
+    <label for="document_type">Document Type:</label>
+    <input type="text" name="document_type"><br>
+    <input type="submit" value="Predict">
+</form>
+</body>
+
+</html>
